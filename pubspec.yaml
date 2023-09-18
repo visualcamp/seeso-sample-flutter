@@ -39,8 +39,7 @@ dependencies:
   flutter_spinkit: ^5.2.0
   riverpod: ^2.3.10
   flutter_riverpod: ^2.3.10
-  seeso_flutter:
-     path: ../seeso_flutter
+  seeso_flutter: ^1.0.0
 
 dev_dependencies:
   flutter_test:

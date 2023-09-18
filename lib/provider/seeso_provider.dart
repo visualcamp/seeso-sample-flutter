@@ -48,7 +48,7 @@ class SeeSoProvider with ChangeNotifier {
   List<double>? calibrationData;
   bool isCalibrating = false;
 
-  OneEuroFilterManager _filterManager = OneEuroFilterManager(count: 2);
+  final OneEuroFilterManager _filterManager = OneEuroFilterManager(count: 2);
 
   UserStatusInfo? attentionInfo, blinkInfo, drowsinessInfo;
 
@@ -255,7 +255,6 @@ class SeeSoProvider with ChangeNotifier {
     _seeso.getUserStatusEvent().listen((event) {
       UserStatusInfo userStatusInfo = UserStatusInfo(event);
       if (userStatusInfo.type == UserStatusEventType.ATTENTION) {
-        print("attention data : ${userStatusInfo.attentionScore}");
         attentionInfo = userStatusInfo;
       } else if (userStatusInfo.type == UserStatusEventType.BLINK) {
         blinkInfo = userStatusInfo;

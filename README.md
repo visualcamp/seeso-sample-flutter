@@ -20,7 +20,7 @@ In 2021, SeeSo was recognized for its innovative technology and won GLOMO Award 
 ## Documentation
 * Overview: https://docs.seeso.io/docs/document/seeso-sdk-overview
 * Quick Start: https://docs.seeso.io/nonversioning/quick-start/flutter-quick-start
-* API: https://docs.seeso.io/docs/api/fltter-api-docs
+* API: https://docs.seeso.io/docs/api/flutter-api-docs
 
 ## Requirements
 
