@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - SeeSo (2.6.0.0)
+  - seeso_flutter (0.0.1):
+    - Flutter
+    - SeeSo (~> 2.6.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - seeso_flutter (from `.symlinks/plugins/seeso_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SeeSo
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  seeso_flutter:
+    :path: ".symlinks/plugins/seeso_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  SeeSo: a23b4248a24e7b75b7cf1c85d062f470b0144d67
+  seeso_flutter: 0e18c93fc6b0c59011085597aba589bc553c7ff5
+
+PODFILE CHECKSUM: 1864b9f1c0a4790816ed2349ca319ee0e2961027
+
+COCOAPODS: 1.12.1
