@@ -2,10 +2,10 @@ PODS:
   - Flutter (1.0.0)
   - permission_handler_apple (9.1.1):
     - Flutter
-  - SeeSo (2.6.0.0)
-  - seeso_flutter (0.0.1):
+  - SeeSo (2.6.1)
+  - seeso_flutter (0.0.2):
     - Flutter
-    - SeeSo (~> 2.6.0)
+    - SeeSo (~> 2.6.1)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -27,9 +27,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
-  SeeSo: a23b4248a24e7b75b7cf1c85d062f470b0144d67
-  seeso_flutter: 0e18c93fc6b0c59011085597aba589bc553c7ff5
+  SeeSo: 94854b39e39f32e840fb2497632963beb5b3162e
+  seeso_flutter: 57591abc3e7748edf6c0febb63ce1ed2a45e90c6
 
 PODFILE CHECKSUM: 1864b9f1c0a4790816ed2349ca319ee0e2961027
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.13.0
